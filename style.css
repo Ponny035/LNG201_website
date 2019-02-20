@@ -1,26 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
-html,
-body,
-header,
 .view {
-  height: 100%;
+ /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body{
+  height: 100vh;
 }
 
 @media (max-width: 740px) {
-  html,
-  body,
-  header,
-  .view {
+  body{
     height: 1000px;
   }
 }
 @media (min-width: 800px) and (max-width: 850px) {
-  html,
-  body,
-  header,
-  .view {
+  html {
     height: 600px;
+    background-color: #F2F2F2;
   }
 }
 
@@ -56,4 +56,18 @@ h6 {
   background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
   background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
   background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}
+.container-fluid1 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container-fluid2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://www.londonappbrewery.com/wp-content/uploads/2015/10/Learn-to-make-apps-background-min.jpeg');
+  color: #F2F2F2;
 }
