@@ -48,7 +48,7 @@ body{
 
 h6 {
   line-height: 1.7;
-  color: #F4F4F4;
+  color: #F2F2F2;
 }
 
 .rgba-gradient {
@@ -58,6 +58,11 @@ h6 {
   background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
   background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
 }
+
+.container-fluid0 {
+  color: #F2F2F2;
+}
+
 .container-fluid1 {
   background-attachment: fixed;
   background-position: center;
@@ -70,5 +75,8 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('https://www.londonappbrewery.com/wp-content/uploads/2015/10/Learn-to-make-apps-background-min.jpeg');
+  color: #F2F2F2;
+}
+.h1-responsive {
   color: #F2F2F2;
 }
