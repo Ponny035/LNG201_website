@@ -80,3 +80,10 @@ h6 {
 .h1-responsive {
   color: #F2F2F2;
 }
+.name {
+  align-content: center;
+}
+
+p {
+  font-size: 18px;
+}
